@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.koitim.condominio.condominio.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/logo_condominio"
+                android:id="@+id/imageView2"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp"/>
+
+            <TextView
+                android:text="Telefones:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"/>
+
+            <TextView
+                android:text="Portaria: 3245-1256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:id="@+id/textView2"/>
+
+            <TextView
+                android:text="Administrador:9 3245-1256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:id="@+id/textView5"/>
+
+            <TextView
+                android:text="Síndico: 93245-1256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:id="@+id/textView4"/>
+
+            <TextView
+                android:text="Subsindico: 3245-1256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:id="@+id/textView3"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+            <TextView
+                android:text="Horários do Lixo: 09:00 e 15:30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
